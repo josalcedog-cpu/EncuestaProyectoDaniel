@@ -28,7 +28,7 @@ names = []
 ideas = []
 
 for i in range(10):
-    print(f"\nPersona {i+1}:")
+    print(f"\nCompañero {i+1}:")
     nombre = input("Ingresa tu nombre: ")
     idea = input("Ingresa tu idea de proyecto: ")
 
@@ -36,7 +36,9 @@ for i in range(10):
     ideas.append(idea)
 
 
+print("===========================================")
 print("--------RESULTADO DE LA ENCUESTA-----------")
+print("===========================================")
 for i in range(10):
     print(f"{i+1}. {names[i]} Tiene una idea de proyecto de: {ideas[i]}")
 
