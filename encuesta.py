@@ -36,9 +36,9 @@ for i in range(10):
     ideas.append(idea)
 
 
-print("\n--- Lista de proyectos ---")
+print("--------RESULTADO DE LA ENCUESTA-----------")
 for i in range(10):
-    print(f"{i+1}. {names[i]} propuso: {ideas[i]}")
+    print(f"{i+1}. {names[i]} Tiene una idea de proyecto de: {ideas[i]}")
 
 print('''
   _  _____                _                                                 _   _      _                  _ 
