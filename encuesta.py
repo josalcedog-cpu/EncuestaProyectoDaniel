@@ -39,8 +39,8 @@ for i in range(10):
 print("===========================================")
 print("--------RESULTADO DE LA ENCUESTA-----------")
 print("===========================================")
-for i in range(10):
-    print(f"{i+1}. {names[i]} Tiene una idea de proyecto de: {ideas[i]}")
+for j in range(10):
+    print(f"{j+1}. {names[i]} Tiene una idea de proyecto de: {ideas[j]}")
 
 print('''
   _  _____                _                                                 _   _      _                  _ 
